@@ -22,7 +22,7 @@ static const char dmenufont[]       = "Menlo:size=14";
 #include "/home/sweathrt/.cache/wal/colors-wal-dwm.h"
 
 /* tagging */
-static const char *tags[] = { "\uf120", "\uf19d", "\uf044", "\uf0e0", "\uf0ac", "\uf013"};
+static const char *tags[] = { "\uf120", "\uf19d", "\uf0ac", "\uf0e0", "\uf044", "\uf013"};
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -31,7 +31,7 @@ static const Rule rules[] = {
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
-	{ "Firefox",  NULL,       NULL,       1 << 4,       0,           -1 },
+	{ "Firefox",  NULL,       NULL,       1 << 2,       0,           -1 },
 };
 
 /* layout(s) */
