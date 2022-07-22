@@ -6,7 +6,7 @@ static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const int focusonwheel       = 0;
-static const char *fonts[]          = { "Menlo:size=14" };
+static const char *fonts[]          = { "Menlo:size=14", "fontawesome:size=14" };
 static const char dmenufont[]       = "Menlo:size=14";
 // static const char col_gray1[]       = "#222222";
 // static const char col_gray2[]       = "#444444";
@@ -22,7 +22,7 @@ static const char dmenufont[]       = "Menlo:size=14";
 #include "/home/sweathrt/.cache/wal/colors-wal-dwm.h"
 
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4", "5", "6"};
+static const char *tags[] = { "\uf120", "\uf19d", "\uf044", "\uf0e0", "\uf0ac", "\uf013"};
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -31,7 +31,7 @@ static const Rule rules[] = {
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
-	{ "Firefox",  NULL,       NULL,       1 << 1,       0,           -1 },
+	{ "Firefox",  NULL,       NULL,       1 << 4,       0,           -1 },
 };
 
 /* layout(s) */
